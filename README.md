@@ -1,6 +1,11 @@
 # massdl
 A small Python script used to download the contents of a webpage quickly and/or take a screenshot of it.\
 
+Notes:
+Make sure to add a default log location and a default output location on lines 32 and 33 of the script:\
+LOGFILE = "" #<--add a logfile location\
+DEFAULT_DIR = "" #<--add a default output location\
+
 usage: massdl.py [-h] [--mode {domain,list}] [--target TARGET] [--ua {1,2,3,4,5,6,7,8,9}] [--screenshotter] [--output OUTPUT] [--usage]\
 
 massdl - Mass Download Script\
